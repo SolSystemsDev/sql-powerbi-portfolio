@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Synthetic financial reporting demonstration, SQL and Power BI portfolio">
+<title>FY2026 | Financial Performance Overview</title>
+<style>
+:root {--ink:#183248;--muted:#66758a;--line:#dae3ed;--accent:#1b6b81;--bg:#f2f6fa;--card:#fff;--bad:#a43131;--good:#237047;}
+*{box-sizing:border-box}body{margin:0;font:15px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:1170px;padding:28px 20px 64px;margin:auto}header{background:linear-gradient(120deg,#183248,#1c6072);color:#fff;padding:32px;border-radius:14px}
+h1{font-size:clamp(25px,4vw,38px);margin:4px 0}h2{font-size:20px;margin:0 0 16px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.13em;opacity:.8}.sub{color:#cde4ed;margin:0}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:20px 0}.kpi,.panel{background:var(--card);padding:22px;border:1px solid var(--line);border-radius:12px}
+.kpi .label{font-size:13px;color:var(--muted)}.kpi .value{font-size:clamp(21px,2.6vw,30px);font-weight:750;letter-spacing:-.035em}.kpi .small{font-size:12px;color:var(--muted)}.bad{color:var(--bad)}.good{color:var(--good)}
+.panel{margin:18px 0}.chart{overflow-x:auto}.chart svg{min-width:750px;width:100%;height:auto}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;white-space:nowrap}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:right}th{background:#eef3f8;color:#43566c;font-size:12px;text-transform:uppercase;letter-spacing:.03em}th:first-child,td:first-child{text-align:left}tr:last-child td{border:0}td.unfavorable{color:var(--bad);font-weight:650}td.favorable{color:var(--good);font-weight:650}
+.note{color:var(--muted);font-size:13px}.tag{display:inline-block;border:1px solid #eab9b9;background:#fff1f1;color:#922b2b;padding:2px 9px;border-radius:50px;font-size:12px;font-weight:750}footer{color:var(--muted);font-size:12px;margin-top:32px}
+@media(max-width:800px){.kpis{grid-template-columns:repeat(2,1fr)}header{padding:23px}.kpi,.panel{padding:16px}}
+@media(max-width:480px){.kpis{grid-template-columns:1fr 1fr;gap:9px}.kpi .value{font-size:21px}main{padding:12px 12px 36px}}
+</style>
+</head>
+<body><main>
+<header><div class="eyebrow">SolSystemsDev / Project 002 / Module 01</div>
+<h1>Financial Performance Overview</h1>
+<p class="sub">FY2026 · October–September · Through fiscal month 12 · Synthetic demonstration</p></header>
+<section class="kpis" aria-label="Executive KPIs">
+<div class="kpi"><div class="label">Fiscal YTD Budget</div><div class="value">$31.11M</div><div class="small">Expense plan</div></div>
+<div class="kpi"><div class="label">Fiscal YTD Actual</div><div class="value">$31.35M</div><div class="small">Recorded expenses</div></div>
+<div class="kpi"><div class="label">YTD Expense Variance</div><div class="value bad">$0.24M</div><div class="small">UNFAVORABLE · +0.78% vs plan</div></div>
+<div class="kpi"><div class="label">Labor Share of Actual</div><div class="value">54.2%</div><div class="small">Labor vs non-labor</div></div>
+</section>
+<section class="panel"><h2>Monthly spend against plan</h2><p class="note">Expense variance = Actual − Budget. Positive values indicate unfavorable overspend.</p>
+<div class="chart"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 330" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Monthly budget and actual expenses</title>
+<desc id="chart-desc">Paired budget and actual bars for every fiscal month, October to September.</desc>
+<rect width="1050" height="330" fill="#ffffff"/>
+<line x1="76" y1="270.0" x2="1026" y2="270.0" stroke="#e4eaf2"/>
+<text x="68" y="274.0" text-anchor="end" fill="#62748a" font-size="12">$0.00M</text>
+<line x1="76" y1="210.0" x2="1026" y2="210.0" stroke="#e4eaf2"/>
+<text x="68" y="214.0" text-anchor="end" fill="#62748a" font-size="12">$0.81M</text>
+<line x1="76" y1="150.0" x2="1026" y2="150.0" stroke="#e4eaf2"/>
+<text x="68" y="154.0" text-anchor="end" fill="#62748a" font-size="12">$1.63M</text>
+<line x1="76" y1="90.0" x2="1026" y2="90.0" stroke="#e4eaf2"/>
+<text x="68" y="94.0" text-anchor="end" fill="#62748a" font-size="12">$2.44M</text>
+<line x1="76" y1="30.0" x2="1026" y2="30.0" stroke="#e4eaf2"/>
+<text x="68" y="34.0" text-anchor="end" fill="#62748a" font-size="12">$3.25M</text>
+<rect x="103" y="88.5" width="22" height="181.5" fill="#7896ca" rx="3"/>
+<rect x="127" y="88.4" width="22" height="181.6" fill="#1b6b81" rx="3"/>
+<text x="125" y="293" text-anchor="middle" font-size="13" fill="#334155">Oct</text>
+<rect x="177" y="88.5" width="22" height="181.5" fill="#7896ca" rx="3"/>
+<rect x="201" y="85.4" width="22" height="184.6" fill="#1b6b81" rx="3"/>
+<text x="199" y="293" text-anchor="middle" font-size="13" fill="#334155">Nov</text>
+<rect x="251" y="79.5" width="22" height="190.5" fill="#7896ca" rx="3"/>
+<rect x="275" y="79.3" width="22" height="190.7" fill="#1b6b81" rx="3"/>
+<text x="273" y="293" text-anchor="middle" font-size="13" fill="#334155">Dec</text>
+<rect x="325" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="349" y="80.0" width="22" height="190.0" fill="#1b6b81" rx="3"/>
+<text x="347" y="293" text-anchor="middle" font-size="13" fill="#334155">Jan</text>
+<rect x="399" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="423" y="78.3" width="22" height="191.7" fill="#1b6b81" rx="3"/>
+<text x="421" y="293" text-anchor="middle" font-size="13" fill="#334155">Feb</text>
+<rect x="473" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="497" y="82.7" width="22" height="187.3" fill="#1b6b81" rx="3"/>
+<text x="495" y="293" text-anchor="middle" font-size="13" fill="#334155">Mar</text>
+<rect x="547" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="571" y="78.8" width="22" height="191.2" fill="#1b6b81" rx="3"/>
+<text x="569" y="293" text-anchor="middle" font-size="13" fill="#334155">Apr</text>
+<rect x="621" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="645" y="85.4" width="22" height="184.6" fill="#1b6b81" rx="3"/>
+<text x="643" y="293" text-anchor="middle" font-size="13" fill="#334155">May</text>
+<rect x="695" y="82.2" width="22" height="187.8" fill="#7896ca" rx="3"/>
+<rect x="719" y="82.8" width="22" height="187.2" fill="#1b6b81" rx="3"/>
+<text x="717" y="293" text-anchor="middle" font-size="13" fill="#334155">Jun</text>
+<rect x="769" y="65.3" width="22" height="204.7" fill="#7896ca" rx="3"/>
+<rect x="793" y="61.3" width="22" height="208.7" fill="#1b6b81" rx="3"/>
+<text x="791" y="293" text-anchor="middle" font-size="13" fill="#334155">Jul</text>
+<rect x="843" y="65.3" width="22" height="204.7" fill="#7896ca" rx="3"/>
+<rect x="867" y="63.3" width="22" height="206.7" fill="#1b6b81" rx="3"/>
+<text x="865" y="293" text-anchor="middle" font-size="13" fill="#334155">Aug</text>
+<rect x="917" y="65.3" width="22" height="204.7" fill="#7896ca" rx="3"/>
+<rect x="941" y="61.8" width="22" height="208.2" fill="#1b6b81" rx="3"/>
+<text x="939" y="293" text-anchor="middle" font-size="13" fill="#334155">Sep</text>
+<rect x="380" y="310" width="11" height="11" rx="2" fill="#7896ca"/>
+<text x="396" y="320" fill="#334155" font-size="12">Budget</text>
+<rect x="483" y="310" width="11" height="11" rx="2" fill="#1b6b81"/>
+<text x="500" y="320" fill="#334155" font-size="12">Actual</text>
+</svg></div></section>
+<section class="panel"><h2>Department performance · Fiscal YTD</h2><div class="table-wrap"><table><thead><tr><th>Department</th><th>Budget</th><th>Actual</th><th>Variance $</th><th>Variance %</th></tr></thead>
+<tbody><tr><td>Facilities</td><td>$6,063,646</td><td>$6,179,041</td><td class="unfavorable">$115,395</td><td class="unfavorable">+1.9%</td></tr>
+<tr><td>Customer Experience</td><td>$4,218,189</td><td>$4,295,139</td><td class="unfavorable">$76,951</td><td class="unfavorable">+1.8%</td></tr>
+<tr><td>Information Technology</td><td>$5,272,736</td><td>$5,328,404</td><td class="unfavorable">$55,668</td><td class="unfavorable">+1.1%</td></tr>
+<tr><td>Administration</td><td>$3,427,278</td><td>$3,452,142</td><td class="unfavorable">$24,864</td><td class="unfavorable">+0.7%</td></tr>
+<tr><td>Procurement</td><td>$4,745,462</td><td>$4,735,098</td><td class="favorable">−$10,365</td><td class="favorable">-0.2%</td></tr>
+<tr><td>Fleet Services</td><td>$7,381,830</td><td>$7,363,028</td><td class="favorable">−$18,802</td><td class="favorable">-0.3%</td></tr></tbody></table></div></section>
+<section class="panel"><h2>General ledger variance drivers</h2><div class="table-wrap"><table><thead><tr><th>GL account</th><th>Budget</th><th>Actual</th><th>Variance $</th><th>Variance %</th></tr></thead>
+<tbody><tr><td>Base Salaries</td><td>$12,085,565</td><td>$12,184,655</td><td class="unfavorable">$99,090</td><td class="unfavorable">+0.8%</td></tr>
+<tr><td>Overtime</td><td>$1,715,852</td><td>$1,788,719</td><td class="unfavorable">$72,867</td><td class="unfavorable">+4.2%</td></tr>
+<tr><td>Fuel and Utilities</td><td>$4,028,522</td><td>$4,099,707</td><td class="unfavorable">$71,185</td><td class="unfavorable">+1.8%</td></tr>
+<tr><td>Contracted Services</td><td>$4,625,340</td><td>$4,650,951</td><td class="unfavorable">$25,611</td><td class="unfavorable">+0.6%</td></tr>
+<tr><td>Parts and Materials</td><td>$3,655,511</td><td>$3,679,856</td><td class="unfavorable">$24,345</td><td class="unfavorable">+0.7%</td></tr>
+<tr><td>Training and Travel</td><td>$596,818</td><td>$591,608</td><td class="favorable">−$5,210</td><td class="favorable">-0.9%</td></tr>
+<tr><td>Software and Licenses</td><td>$1,342,841</td><td>$1,328,501</td><td class="favorable">−$14,340</td><td class="favorable">-1.1%</td></tr>
+<tr><td>Employee Benefits</td><td>$3,058,692</td><td>$3,028,854</td><td class="favorable">−$29,838</td><td class="favorable">-1.0%</td></tr></tbody></table></div></section>
+<section class="panel"><h2>Monthly variance detail</h2><div class="table-wrap"><table><thead><tr><th>Fiscal month</th><th>Budget</th><th>Actual</th><th>Variance $</th><th>Variance %</th></tr></thead>
+<tbody><tr><td>October</td><td>$2,460,300</td><td>$2,462,782</td><td class="unfavorable">$2,482</td><td class="unfavorable">+0.1%</td></tr>
+<tr><td>November</td><td>$2,460,300</td><td>$2,502,761</td><td class="unfavorable">$42,461</td><td class="unfavorable">+1.7%</td></tr>
+<tr><td>December</td><td>$2,583,315</td><td>$2,585,102</td><td class="unfavorable">$1,787</td><td class="unfavorable">+0.1%</td></tr>
+<tr><td>January</td><td>$2,546,410</td><td>$2,576,428</td><td class="unfavorable">$30,017</td><td class="unfavorable">+1.2%</td></tr>
+<tr><td>February</td><td>$2,546,410</td><td>$2,599,468</td><td class="unfavorable">$53,058</td><td class="unfavorable">+2.1%</td></tr>
+<tr><td>March</td><td>$2,546,410</td><td>$2,539,984</td><td class="favorable">−$6,426</td><td class="favorable">-0.3%</td></tr>
+<tr><td>April</td><td>$2,546,410</td><td>$2,592,282</td><td class="unfavorable">$45,871</td><td class="unfavorable">+1.8%</td></tr>
+<tr><td>May</td><td>$2,546,410</td><td>$2,502,288</td><td class="favorable">−$44,122</td><td class="favorable">-1.7%</td></tr>
+<tr><td>June</td><td>$2,546,410</td><td>$2,537,691</td><td class="favorable">−$8,720</td><td class="favorable">-0.3%</td></tr>
+<tr><td>July</td><td>$2,775,587</td><td>$2,829,572</td><td class="unfavorable">$53,984</td><td class="unfavorable">+1.9%</td></tr>
+<tr><td>August</td><td>$2,775,587</td><td>$2,801,945</td><td class="unfavorable">$26,357</td><td class="unfavorable">+0.9%</td></tr>
+<tr><td>September</td><td>$2,775,587</td><td>$2,822,550</td><td class="unfavorable">$46,962</td><td class="unfavorable">+1.7%</td></tr></tbody></table></div></section>
+<section class="panel"><h2>Data quality and accounting conventions</h2>
+<p>Budget values reconcile to the source budget ledger. Actual expenses reconcile to the complete synthetic transaction ledger. Reporting joins on fiscal month, department and general-ledger account. All amounts are USD.</p>
+<p class="note">This is a portfolio simulation, not actual organizational financial information. Fiscal year is named by its ending September; e.g., FY2026 = 2025-10-01 through 2026-09-30. All figures are generated with seed 42.</p></section>
+<footer>Developed by Jonathon McDonnell · SolSystemsDev · SQL / Python / Financial BI · v0.1</footer>
+</main></body></html>

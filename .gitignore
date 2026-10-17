@@ -1,0 +1,9 @@
+# Runtime artifacts (rebuild with python3 scripts/build.py)
+data/processed/*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.zip
+.DS_Store

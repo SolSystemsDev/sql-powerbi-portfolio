@@ -1,0 +1,10 @@
+{
+  "fiscal_year": 2026,
+  "through_fiscal_month": 12,
+  "budget_usd": "31109140.29",
+  "actual_usd": "31352851.47",
+  "variance_usd": "243711.18",
+  "variance_pct": 0.78,
+  "variance_definition": "Actual - Budget; positive is unfavorable for expenses",
+  "synthetic_data": true
+}

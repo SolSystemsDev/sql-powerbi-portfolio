@@ -1,0 +1,7 @@
+department_id,department_name,budget_usd,actual_usd,variance_usd
+D002,Facilities,6063645.93,6179041.06,115395.13
+D004,Customer Experience,4218188.52,4295139.04,76950.52
+D003,Information Technology,5272735.65,5328404.06,55668.41
+D005,Administration,3427278.18,3452142.22,24864.04
+D006,Procurement,4745462.10,4735097.51,-10364.59
+D001,Fleet Services,7381829.91,7363027.58,-18802.33

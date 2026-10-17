@@ -1,0 +1,56 @@
+// POWER BI DAX REFERENCE: create EACH named measure individually in Power BI Desktop.
+// Table names: FactBudget, FactActual, DimDate, DimDepartment, DimGL.
+// Date column DimDate[date] must be DATE type and the table marked as a date table.
+// Currency raw storage is integer CENTS. Format measures as USD currency.
+// Positive expense variance = UNFAVORABLE (overspend).
+
+Budget USD =
+DIVIDE ( SUM ( FactBudget[budget_cents] ), 100 )
+
+Actual USD =
+DIVIDE ( SUM ( FactActual[actual_cents] ), 100 )
+
+Expense Variance USD =
+[Actual USD] - [Budget USD]
+
+Expense Variance % =
+DIVIDE ( [Expense Variance USD], [Budget USD] )
+
+Budget FYTD USD =
+CALCULATE ( [Budget USD], DATESYTD ( DimDate[date], "9/30" ) )
+
+Actual FYTD USD =
+CALCULATE ( [Actual USD], DATESYTD ( DimDate[date], "9/30" ) )
+
+Expense FYTD Variance USD =
+[Actual FYTD USD] - [Budget FYTD USD]
+
+Expense FYTD Variance % =
+DIVIDE ( [Expense FYTD Variance USD], [Budget FYTD USD] )
+
+Budget MTD USD =
+CALCULATE ( [Budget USD], DATESMTD ( DimDate[date] ) )
+
+Actual MTD USD =
+CALCULATE ( [Actual USD], DATESMTD ( DimDate[date] ) )
+
+Expense MTD Variance USD =
+[Actual MTD USD] - [Budget MTD USD]
+
+Labor Actual USD =
+CALCULATE ( [Actual USD], DimGL[expense_class] = "Labor" )
+
+Non-Labor Actual USD =
+CALCULATE ( [Actual USD], DimGL[expense_class] = "Non-Labor" )
+
+Labor Share % =
+DIVIDE ( [Labor Actual USD], [Actual USD] )
+
+Unfavorable Overspend USD =
+MAX ( [Expense Variance USD], 0 )
+
+// Optional calculated columns, if NOT importing precomputed calendar attributes:
+// DimDate[fiscal_year] = YEAR ( DimDate[date] ) + IF ( MONTH ( DimDate[date] ) >= 10, 1, 0 )
+// DimDate[fiscal_month_index] = MOD ( MONTH ( DimDate[date] ) + 2, 12 ) + 1
+// Note: FYTD follows the currently selected date context; use a month-end slicer
+// or a suitable daily time axis to show month-to-date and year-to-date figures.

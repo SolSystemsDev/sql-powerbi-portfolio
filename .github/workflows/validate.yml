@@ -1,0 +1,19 @@
+name: Validate Synthetic Financial Analytics
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rebuild synthetic data and reports
+        run: python3 scripts/build.py
+      - name: Run automated tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Ensure deterministic committed files
+        run: git diff --exit-code -- data/synthetic data/processed reports

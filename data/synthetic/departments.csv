@@ -1,0 +1,7 @@
+department_id,department_name,business_unit
+D001,Fleet Services,Operations
+D002,Facilities,Operations
+D003,Information Technology,Technology
+D004,Customer Experience,Service
+D005,Administration,Corporate
+D006,Procurement,Corporate

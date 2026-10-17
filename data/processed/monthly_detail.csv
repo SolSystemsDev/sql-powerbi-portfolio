@@ -1,0 +1,577 @@
+month_start,fiscal_year,fiscal_month_index,department_id,department_name,business_unit,gl_account_id,gl_account_name,expense_class,budget_usd,actual_usd,variance_usd
+2025-10-01,2026,1,D001,Fleet Services,Operations,5100,Base Salaries,Labor,226800.00,244036.91,17236.91
+2025-10-01,2026,1,D001,Fleet Services,Operations,5110,Overtime,Labor,32200.00,30144.18,-2055.82
+2025-10-01,2026,1,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,57400.00,59449.71,2049.71
+2025-10-01,2026,1,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,68600.00,75502.58,6902.58
+2025-10-01,2026,1,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,75600.00,81385.83,5785.83
+2025-10-01,2026,1,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,86800.00,75718.30,-11081.70
+2025-10-01,2026,1,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,25200.00,24240.22,-959.78
+2025-10-01,2026,1,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11200.00,12321.07,1121.07
+2025-10-01,2026,1,D002,Facilities,Operations,5100,Base Salaries,Labor,186300.00,176907.10,-9392.90
+2025-10-01,2026,1,D002,Facilities,Operations,5110,Overtime,Labor,26450.00,27733.65,1283.65
+2025-10-01,2026,1,D002,Facilities,Operations,5120,Employee Benefits,Labor,47150.00,47358.25,208.25
+2025-10-01,2026,1,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,56350.00,55799.26,-550.74
+2025-10-01,2026,1,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,62100.00,53544.57,-8555.43
+2025-10-01,2026,1,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,71300.00,67385.25,-3914.75
+2025-10-01,2026,1,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,20700.00,18934.67,-1765.33
+2025-10-01,2026,1,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9200.00,7973.59,-1226.41
+2025-10-01,2026,1,D003,Information Technology,Technology,5100,Base Salaries,Labor,162000.00,139386.32,-22613.68
+2025-10-01,2026,1,D003,Information Technology,Technology,5110,Overtime,Labor,23000.00,26111.27,3111.27
+2025-10-01,2026,1,D003,Information Technology,Technology,5120,Employee Benefits,Labor,41000.00,36327.95,-4672.05
+2025-10-01,2026,1,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,49000.00,51755.62,2755.62
+2025-10-01,2026,1,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,54000.00,48458.73,-5541.27
+2025-10-01,2026,1,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,62000.00,70058.83,8058.83
+2025-10-01,2026,1,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18000.00,17067.64,-932.36
+2025-10-01,2026,1,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8000.00,7489.18,-510.82
+2025-10-01,2026,1,D004,Customer Experience,Service,5100,Base Salaries,Labor,129600.00,139403.08,9803.08
+2025-10-01,2026,1,D004,Customer Experience,Service,5110,Overtime,Labor,18400.00,18140.17,-259.83
+2025-10-01,2026,1,D004,Customer Experience,Service,5120,Employee Benefits,Labor,32800.00,35282.77,2482.77
+2025-10-01,2026,1,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,39200.00,34704.46,-4495.54
+2025-10-01,2026,1,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,43200.00,47263.35,4063.35
+2025-10-01,2026,1,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,49600.00,47596.56,-2003.44
+2025-10-01,2026,1,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14400.00,14014.51,-385.49
+2025-10-01,2026,1,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6400.00,5686.62,-713.38
+2025-10-01,2026,1,D005,Administration,Corporate,5100,Base Salaries,Labor,105300.00,115040.70,9740.70
+2025-10-01,2026,1,D005,Administration,Corporate,5110,Overtime,Labor,14950.00,14533.84,-416.16
+2025-10-01,2026,1,D005,Administration,Corporate,5120,Employee Benefits,Labor,26650.00,28983.72,2333.72
+2025-10-01,2026,1,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,31850.00,33151.91,1301.91
+2025-10-01,2026,1,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,35100.00,38336.91,3236.91
+2025-10-01,2026,1,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,40300.00,36553.59,-3746.41
+2025-10-01,2026,1,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,11700.00,12300.21,600.21
+2025-10-01,2026,1,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5200.00,4744.49,-455.51
+2025-10-01,2026,1,D006,Procurement,Corporate,5100,Base Salaries,Labor,145800.00,150665.26,4865.26
+2025-10-01,2026,1,D006,Procurement,Corporate,5110,Overtime,Labor,20700.00,20189.91,-510.09
+2025-10-01,2026,1,D006,Procurement,Corporate,5120,Employee Benefits,Labor,36900.00,33794.80,-3105.20
+2025-10-01,2026,1,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,44100.00,47581.10,3481.10
+2025-10-01,2026,1,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,48600.00,54215.71,5615.71
+2025-10-01,2026,1,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,55800.00,51409.97,-4390.03
+2025-10-01,2026,1,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16200.00,16580.97,380.97
+2025-10-01,2026,1,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7200.00,7516.24,316.24
+2025-11-01,2026,2,D001,Fleet Services,Operations,5100,Base Salaries,Labor,226800.00,231606.75,4806.75
+2025-11-01,2026,2,D001,Fleet Services,Operations,5110,Overtime,Labor,32200.00,30559.13,-1640.87
+2025-11-01,2026,2,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,57400.00,64593.16,7193.16
+2025-11-01,2026,2,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,68600.00,69409.13,809.13
+2025-11-01,2026,2,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,75600.00,66204.96,-9395.04
+2025-11-01,2026,2,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,86800.00,89573.93,2773.93
+2025-11-01,2026,2,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,25200.00,28154.92,2954.92
+2025-11-01,2026,2,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11200.00,12508.41,1308.41
+2025-11-01,2026,2,D002,Facilities,Operations,5100,Base Salaries,Labor,186300.00,210324.59,24024.59
+2025-11-01,2026,2,D002,Facilities,Operations,5110,Overtime,Labor,26450.00,25136.20,-1313.80
+2025-11-01,2026,2,D002,Facilities,Operations,5120,Employee Benefits,Labor,47150.00,53231.66,6081.66
+2025-11-01,2026,2,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,56350.00,60878.16,4528.16
+2025-11-01,2026,2,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,62100.00,56455.01,-5644.99
+2025-11-01,2026,2,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,71300.00,80259.61,8959.61
+2025-11-01,2026,2,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,20700.00,19646.39,-1053.61
+2025-11-01,2026,2,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9200.00,8765.09,-434.91
+2025-11-01,2026,2,D003,Information Technology,Technology,5100,Base Salaries,Labor,162000.00,146935.37,-15064.63
+2025-11-01,2026,2,D003,Information Technology,Technology,5110,Overtime,Labor,23000.00,23895.82,895.82
+2025-11-01,2026,2,D003,Information Technology,Technology,5120,Employee Benefits,Labor,41000.00,43217.66,2217.66
+2025-11-01,2026,2,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,49000.00,47435.06,-1564.94
+2025-11-01,2026,2,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,54000.00,54695.88,695.88
+2025-11-01,2026,2,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,62000.00,63355.04,1355.04
+2025-11-01,2026,2,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18000.00,16966.34,-1033.66
+2025-11-01,2026,2,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8000.00,8868.97,868.97
+2025-11-01,2026,2,D004,Customer Experience,Service,5100,Base Salaries,Labor,129600.00,145633.28,16033.28
+2025-11-01,2026,2,D004,Customer Experience,Service,5110,Overtime,Labor,18400.00,20425.90,2025.90
+2025-11-01,2026,2,D004,Customer Experience,Service,5120,Employee Benefits,Labor,32800.00,32195.70,-604.30
+2025-11-01,2026,2,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,39200.00,44407.00,5207.00
+2025-11-01,2026,2,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,43200.00,37752.39,-5447.61
+2025-11-01,2026,2,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,49600.00,48594.59,-1005.41
+2025-11-01,2026,2,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14400.00,13072.80,-1327.20
+2025-11-01,2026,2,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6400.00,6910.50,510.50
+2025-11-01,2026,2,D005,Administration,Corporate,5100,Base Salaries,Labor,105300.00,101983.85,-3316.15
+2025-11-01,2026,2,D005,Administration,Corporate,5110,Overtime,Labor,14950.00,13959.16,-990.84
+2025-11-01,2026,2,D005,Administration,Corporate,5120,Employee Benefits,Labor,26650.00,23378.95,-3271.05
+2025-11-01,2026,2,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,31850.00,32650.18,800.18
+2025-11-01,2026,2,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,35100.00,39388.56,4288.56
+2025-11-01,2026,2,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,40300.00,44293.86,3993.86
+2025-11-01,2026,2,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,11700.00,11755.09,55.09
+2025-11-01,2026,2,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5200.00,4752.61,-447.39
+2025-11-01,2026,2,D006,Procurement,Corporate,5100,Base Salaries,Labor,145800.00,143162.49,-2637.51
+2025-11-01,2026,2,D006,Procurement,Corporate,5110,Overtime,Labor,20700.00,23100.55,2400.55
+2025-11-01,2026,2,D006,Procurement,Corporate,5120,Employee Benefits,Labor,36900.00,35839.47,-1060.53
+2025-11-01,2026,2,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,44100.00,38078.67,-6021.33
+2025-11-01,2026,2,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,48600.00,43832.33,-4767.67
+2025-11-01,2026,2,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,55800.00,61739.24,5939.24
+2025-11-01,2026,2,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16200.00,16694.25,494.25
+2025-11-01,2026,2,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7200.00,6482.01,-717.99
+2025-12-01,2026,3,D001,Fleet Services,Operations,5100,Base Salaries,Labor,238140.00,220642.00,-17498.00
+2025-12-01,2026,3,D001,Fleet Services,Operations,5110,Overtime,Labor,33810.00,31945.56,-1864.44
+2025-12-01,2026,3,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,60270.00,55679.12,-4590.88
+2025-12-01,2026,3,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,72030.00,74147.26,2117.26
+2025-12-01,2026,3,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,79380.00,88569.12,9189.12
+2025-12-01,2026,3,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,91140.00,79814.73,-11325.27
+2025-12-01,2026,3,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26460.00,26510.34,50.34
+2025-12-01,2026,3,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11760.00,10208.92,-1551.08
+2025-12-01,2026,3,D002,Facilities,Operations,5100,Base Salaries,Labor,195615.00,214071.95,18456.95
+2025-12-01,2026,3,D002,Facilities,Operations,5110,Overtime,Labor,27772.50,31023.24,3250.74
+2025-12-01,2026,3,D002,Facilities,Operations,5120,Employee Benefits,Labor,49507.50,51384.56,1877.06
+2025-12-01,2026,3,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,59167.50,58981.73,-185.77
+2025-12-01,2026,3,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,65205.00,62361.39,-2843.61
+2025-12-01,2026,3,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,74865.00,65424.70,-9440.30
+2025-12-01,2026,3,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21735.00,20329.69,-1405.31
+2025-12-01,2026,3,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9660.00,10383.73,723.73
+2025-12-01,2026,3,D003,Information Technology,Technology,5100,Base Salaries,Labor,170100.00,177119.01,7019.01
+2025-12-01,2026,3,D003,Information Technology,Technology,5110,Overtime,Labor,24150.00,25588.55,1438.55
+2025-12-01,2026,3,D003,Information Technology,Technology,5120,Employee Benefits,Labor,43050.00,39653.29,-3396.71
+2025-12-01,2026,3,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,51450.00,52667.12,1217.12
+2025-12-01,2026,3,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,56700.00,62149.98,5449.98
+2025-12-01,2026,3,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,65100.00,61426.62,-3673.38
+2025-12-01,2026,3,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18900.00,21484.41,2584.41
+2025-12-01,2026,3,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8400.00,8756.25,356.25
+2025-12-01,2026,3,D004,Customer Experience,Service,5100,Base Salaries,Labor,136080.00,126184.89,-9895.11
+2025-12-01,2026,3,D004,Customer Experience,Service,5110,Overtime,Labor,19320.00,18344.03,-975.97
+2025-12-01,2026,3,D004,Customer Experience,Service,5120,Employee Benefits,Labor,34440.00,34414.67,-25.33
+2025-12-01,2026,3,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,41160.00,35804.64,-5355.36
+2025-12-01,2026,3,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,45360.00,47726.39,2366.39
+2025-12-01,2026,3,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,52080.00,54378.40,2298.40
+2025-12-01,2026,3,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,15120.00,16073.35,953.35
+2025-12-01,2026,3,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6720.00,6197.39,-522.61
+2025-12-01,2026,3,D005,Administration,Corporate,5100,Base Salaries,Labor,110565.00,122540.98,11975.98
+2025-12-01,2026,3,D005,Administration,Corporate,5110,Overtime,Labor,15697.50,14017.53,-1679.97
+2025-12-01,2026,3,D005,Administration,Corporate,5120,Employee Benefits,Labor,27982.50,31463.64,3481.14
+2025-12-01,2026,3,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,33442.50,33446.97,4.47
+2025-12-01,2026,3,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36855.00,33251.24,-3603.76
+2025-12-01,2026,3,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,42315.00,46969.51,4654.51
+2025-12-01,2026,3,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12285.00,13244.50,959.50
+2025-12-01,2026,3,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5460.00,4784.29,-675.71
+2025-12-01,2026,3,D006,Procurement,Corporate,5100,Base Salaries,Labor,153090.00,156359.71,3269.71
+2025-12-01,2026,3,D006,Procurement,Corporate,5110,Overtime,Labor,21735.00,23437.52,1702.52
+2025-12-01,2026,3,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38745.00,37696.95,-1048.05
+2025-12-01,2026,3,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,46305.00,49295.59,2990.59
+2025-12-01,2026,3,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,51030.00,51473.42,443.42
+2025-12-01,2026,3,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,58590.00,54469.39,-4120.61
+2025-12-01,2026,3,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,17010.00,16086.56,-923.44
+2025-12-01,2026,3,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7560.00,7117.22,-442.78
+2026-01-01,2026,4,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,267303.74,32565.74
+2026-01-01,2026,4,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,37508.33,4181.33
+2026-01-01,2026,4,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,54604.79,-4804.21
+2026-01-01,2026,4,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,63509.35,-7491.65
+2026-01-01,2026,4,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,87614.03,9368.03
+2026-01-01,2026,4,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,93700.94,3862.94
+2026-01-01,2026,4,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,25474.22,-607.78
+2026-01-01,2026,4,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,10466.13,-1125.87
+2026-01-01,2026,4,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,201592.91,8772.41
+2026-01-01,2026,4,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,27464.55,88.80
+2026-01-01,2026,4,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,50289.66,1489.41
+2026-01-01,2026,4,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,54980.29,-3341.96
+2026-01-01,2026,4,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,66083.08,1809.58
+2026-01-01,2026,4,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,65303.17,-8492.33
+2026-01-01,2026,4,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,19319.77,-2104.73
+2026-01-01,2026,4,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,10118.06,596.06
+2026-01-01,2026,4,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,155048.62,-12621.38
+2026-01-01,2026,4,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,21636.76,-2168.24
+2026-01-01,2026,4,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,44535.30,2100.30
+2026-01-01,2026,4,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,44266.53,-6448.47
+2026-01-01,2026,4,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,68211.94,12321.94
+2026-01-01,2026,4,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,57231.49,-6938.51
+2026-01-01,2026,4,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,20459.24,1829.24
+2026-01-01,2026,4,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,7428.01,-851.99
+2026-01-01,2026,4,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,145488.48,11352.48
+2026-01-01,2026,4,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,16531.50,-2512.50
+2026-01-01,2026,4,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,33104.72,-843.28
+2026-01-01,2026,4,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,38461.71,-2110.29
+2026-01-01,2026,4,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,50444.23,5732.23
+2026-01-01,2026,4,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,50370.75,-965.25
+2026-01-01,2026,4,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,13437.79,-1466.21
+2026-01-01,2026,4,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,7271.01,647.01
+2026-01-01,2026,4,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,101078.57,-7906.93
+2026-01-01,2026,4,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,14947.45,-525.80
+2026-01-01,2026,4,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,29909.44,2326.69
+2026-01-01,2026,4,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,37401.40,4436.65
+2026-01-01,2026,4,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,40824.07,4495.57
+2026-01-01,2026,4,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,43101.07,1390.57
+2026-01-01,2026,4,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,13636.50,1527.00
+2026-01-01,2026,4,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,5472.64,90.64
+2026-01-01,2026,4,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,139146.03,-11756.97
+2026-01-01,2026,4,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,21710.59,286.09
+2026-01-01,2026,4,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,34346.60,-3844.90
+2026-01-01,2026,4,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,41650.25,-3993.25
+2026-01-01,2026,4,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,58887.41,8586.41
+2026-01-01,2026,4,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,59907.61,2154.61
+2026-01-01,2026,4,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,16786.71,19.71
+2026-01-01,2026,4,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,8360.30,908.30
+2026-02-01,2026,5,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,239901.12,5163.12
+2026-02-01,2026,5,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,33365.35,38.35
+2026-02-01,2026,5,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,55642.88,-3766.12
+2026-02-01,2026,5,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,69266.36,-1734.64
+2026-02-01,2026,5,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,82776.05,4530.05
+2026-02-01,2026,5,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,95230.77,5392.77
+2026-02-01,2026,5,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,24784.86,-1297.14
+2026-02-01,2026,5,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,11860.77,268.77
+2026-02-01,2026,5,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,194047.69,1227.19
+2026-02-01,2026,5,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,28680.78,1305.03
+2026-02-01,2026,5,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,44167.25,-4633.00
+2026-02-01,2026,5,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,62965.87,4643.62
+2026-02-01,2026,5,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,76994.98,12721.48
+2026-02-01,2026,5,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,78744.07,4948.57
+2026-02-01,2026,5,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,20757.95,-666.55
+2026-02-01,2026,5,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,8314.18,-1207.82
+2026-02-01,2026,5,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,189539.75,21869.75
+2026-02-01,2026,5,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,21825.96,-1979.04
+2026-02-01,2026,5,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,45268.22,2833.22
+2026-02-01,2026,5,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,46134.38,-4580.62
+2026-02-01,2026,5,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,54849.19,-1040.81
+2026-02-01,2026,5,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,70387.04,6217.04
+2026-02-01,2026,5,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,20912.15,2282.15
+2026-02-01,2026,5,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,7238.70,-1041.30
+2026-02-01,2026,5,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,128805.97,-5330.03
+2026-02-01,2026,5,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,19071.41,27.41
+2026-02-01,2026,5,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,31297.87,-2650.13
+2026-02-01,2026,5,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,38990.64,-1581.36
+2026-02-01,2026,5,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,49315.55,4603.55
+2026-02-01,2026,5,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,57353.09,6017.09
+2026-02-01,2026,5,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,14408.95,-495.05
+2026-02-01,2026,5,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,7039.41,415.41
+2026-02-01,2026,5,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,105169.73,-3815.77
+2026-02-01,2026,5,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,15533.45,60.20
+2026-02-01,2026,5,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,27839.20,256.45
+2026-02-01,2026,5,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,32265.19,-699.56
+2026-02-01,2026,5,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,42386.93,6058.43
+2026-02-01,2026,5,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,36313.50,-5397.00
+2026-02-01,2026,5,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,11268.30,-841.20
+2026-02-01,2026,5,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,5213.27,-168.73
+2026-02-01,2026,5,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,152374.85,1471.85
+2026-02-01,2026,5,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,22629.56,1205.06
+2026-02-01,2026,5,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,35944.09,-2247.41
+2026-02-01,2026,5,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,44303.03,-1340.47
+2026-02-01,2026,5,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,54298.82,3997.82
+2026-02-01,2026,5,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,61461.37,3708.37
+2026-02-01,2026,5,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,14998.18,-1768.82
+2026-02-01,2026,5,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,7529.52,77.52
+2026-03-01,2026,6,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,250606.41,15868.41
+2026-03-01,2026,6,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,29990.55,-3336.45
+2026-03-01,2026,6,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,55295.98,-4113.02
+2026-03-01,2026,6,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,72338.80,1337.80
+2026-03-01,2026,6,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,88983.03,10737.03
+2026-03-01,2026,6,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,82226.65,-7611.35
+2026-03-01,2026,6,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,24143.30,-1938.70
+2026-03-01,2026,6,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,11034.85,-557.15
+2026-03-01,2026,6,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,174930.43,-17890.07
+2026-03-01,2026,6,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,26886.13,-489.62
+2026-03-01,2026,6,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,48053.62,-746.63
+2026-03-01,2026,6,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,60063.50,1741.25
+2026-03-01,2026,6,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,71226.22,6952.72
+2026-03-01,2026,6,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,63849.08,-9946.42
+2026-03-01,2026,6,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,19701.39,-1723.11
+2026-03-01,2026,6,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,10572.43,1050.43
+2026-03-01,2026,6,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,171876.54,4206.54
+2026-03-01,2026,6,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,23117.03,-687.97
+2026-03-01,2026,6,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,38385.95,-4049.05
+2026-03-01,2026,6,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,50480.75,-234.25
+2026-03-01,2026,6,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,49049.13,-6840.87
+2026-03-01,2026,6,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,71495.86,7325.86
+2026-03-01,2026,6,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,16264.04,-2365.96
+2026-03-01,2026,6,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,7754.87,-525.13
+2026-03-01,2026,6,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,129573.39,-4562.61
+2026-03-01,2026,6,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,19131.30,87.30
+2026-03-01,2026,6,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,33777.95,-170.05
+2026-03-01,2026,6,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,40737.19,165.19
+2026-03-01,2026,6,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,45989.23,1277.23
+2026-03-01,2026,6,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,48895.64,-2440.36
+2026-03-01,2026,6,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,14816.45,-87.55
+2026-03-01,2026,6,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,6760.30,136.30
+2026-03-01,2026,6,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,94923.48,-14062.02
+2026-03-01,2026,6,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,17458.57,1985.32
+2026-03-01,2026,6,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,30064.23,2481.48
+2026-03-01,2026,6,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,37513.13,4548.38
+2026-03-01,2026,6,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,32694.18,-3634.32
+2026-03-01,2026,6,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,44328.76,2618.26
+2026-03-01,2026,6,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,10862.46,-1247.04
+2026-03-01,2026,6,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,5998.86,616.86
+2026-03-01,2026,6,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,155120.42,4217.42
+2026-03-01,2026,6,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,23835.95,2411.45
+2026-03-01,2026,6,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,40305.02,2113.52
+2026-03-01,2026,6,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,49077.17,3433.67
+2026-03-01,2026,6,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,49979.05,-321.95
+2026-03-01,2026,6,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,63845.63,6092.63
+2026-03-01,2026,6,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,18125.77,1358.77
+2026-03-01,2026,6,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,7843.79,391.79
+2026-04-01,2026,7,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,244700.58,9962.58
+2026-04-01,2026,7,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,34371.02,1044.02
+2026-04-01,2026,7,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,59117.36,-291.64
+2026-04-01,2026,7,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,72544.73,1543.73
+2026-04-01,2026,7,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,83675.33,5429.33
+2026-04-01,2026,7,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,90047.88,209.88
+2026-04-01,2026,7,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,28304.80,2222.80
+2026-04-01,2026,7,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,11382.25,-209.75
+2026-04-01,2026,7,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,170146.95,-22673.55
+2026-04-01,2026,7,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,28249.32,873.57
+2026-04-01,2026,7,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,48723.30,-76.95
+2026-04-01,2026,7,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,65356.63,7034.38
+2026-04-01,2026,7,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,67844.92,3571.42
+2026-04-01,2026,7,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,83623.65,9828.15
+2026-04-01,2026,7,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,20821.22,-603.28
+2026-04-01,2026,7,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,10064.89,542.89
+2026-04-01,2026,7,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,183151.67,15481.67
+2026-04-01,2026,7,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,26669.21,2864.21
+2026-04-01,2026,7,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,37354.18,-5080.82
+2026-04-01,2026,7,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,56055.88,5340.88
+2026-04-01,2026,7,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,59919.25,4029.25
+2026-04-01,2026,7,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,55677.63,-8492.37
+2026-04-01,2026,7,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,19327.23,697.23
+2026-04-01,2026,7,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,8975.89,695.89
+2026-04-01,2026,7,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,146611.93,12475.93
+2026-04-01,2026,7,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,19970.21,926.21
+2026-04-01,2026,7,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,32178.78,-1769.22
+2026-04-01,2026,7,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,45651.33,5079.33
+2026-04-01,2026,7,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,41775.03,-2936.97
+2026-04-01,2026,7,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,56170.50,4834.50
+2026-04-01,2026,7,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,15637.69,733.69
+2026-04-01,2026,7,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,7269.46,645.46
+2026-04-01,2026,7,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,121100.32,12114.82
+2026-04-01,2026,7,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,14521.25,-952.00
+2026-04-01,2026,7,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,27781.51,198.76
+2026-04-01,2026,7,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,31983.74,-981.01
+2026-04-01,2026,7,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,38253.15,1924.65
+2026-04-01,2026,7,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,42656.59,946.09
+2026-04-01,2026,7,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,11218.23,-891.27
+2026-04-01,2026,7,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,4945.78,-436.22
+2026-04-01,2026,7,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,137377.41,-13525.59
+2026-04-01,2026,7,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,23309.29,1884.79
+2026-04-01,2026,7,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,34404.29,-3787.21
+2026-04-01,2026,7,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,40971.98,-4671.52
+2026-04-01,2026,7,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,46793.65,-3507.35
+2026-04-01,2026,7,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,62827.70,5074.70
+2026-04-01,2026,7,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,15639.17,-1127.83
+2026-04-01,2026,7,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,7126.79,-325.21
+2026-05-01,2026,8,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,214951.53,-19786.47
+2026-05-01,2026,8,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,33210.30,-116.70
+2026-05-01,2026,8,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,67004.23,7595.23
+2026-05-01,2026,8,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,67768.23,-3232.77
+2026-05-01,2026,8,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,70840.79,-7405.21
+2026-05-01,2026,8,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,84589.64,-5248.36
+2026-05-01,2026,8,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,28731.56,2649.56
+2026-05-01,2026,8,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,10512.19,-1079.81
+2026-05-01,2026,8,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,201568.06,8747.56
+2026-05-01,2026,8,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,30723.87,3348.12
+2026-05-01,2026,8,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,49127.95,327.70
+2026-05-01,2026,8,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,52692.80,-5629.45
+2026-05-01,2026,8,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,66549.72,2276.22
+2026-05-01,2026,8,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,64054.49,-9741.01
+2026-05-01,2026,8,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,20059.25,-1365.25
+2026-05-01,2026,8,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,9764.17,242.17
+2026-05-01,2026,8,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,164617.34,-3052.66
+2026-05-01,2026,8,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,21986.20,-1818.80
+2026-05-01,2026,8,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,41391.82,-1043.18
+2026-05-01,2026,8,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,51046.10,331.10
+2026-05-01,2026,8,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,56439.27,549.27
+2026-05-01,2026,8,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,60449.32,-3720.68
+2026-05-01,2026,8,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,17005.46,-1624.54
+2026-05-01,2026,8,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,8024.33,-255.67
+2026-05-01,2026,8,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,124354.44,-9781.56
+2026-05-01,2026,8,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,20690.67,1646.67
+2026-05-01,2026,8,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,31948.01,-1999.99
+2026-05-01,2026,8,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,37025.24,-3546.76
+2026-05-01,2026,8,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,38729.38,-5982.62
+2026-05-01,2026,8,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,54429.24,3093.24
+2026-05-01,2026,8,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,14244.28,-659.72
+2026-05-01,2026,8,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,5755.50,-868.50
+2026-05-01,2026,8,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,117397.31,8411.81
+2026-05-01,2026,8,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,14139.67,-1333.58
+2026-05-01,2026,8,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,25643.94,-1938.81
+2026-05-01,2026,8,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,35466.08,2501.33
+2026-05-01,2026,8,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,40765.67,4437.17
+2026-05-01,2026,8,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,44568.62,2858.12
+2026-05-01,2026,8,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,11636.25,-473.25
+2026-05-01,2026,8,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,5582.29,200.29
+2026-05-01,2026,8,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,134832.12,-16070.88
+2026-05-01,2026,8,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,23125.03,1700.53
+2026-05-01,2026,8,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,34531.06,-3660.44
+2026-05-01,2026,8,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,51149.83,5506.33
+2026-05-01,2026,8,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,54406.09,4105.09
+2026-05-01,2026,8,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,65542.10,7789.10
+2026-05-01,2026,8,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,16193.15,-573.85
+2026-05-01,2026,8,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,7023.66,-428.34
+2026-06-01,2026,9,D001,Fleet Services,Operations,5100,Base Salaries,Labor,234738.00,250013.03,15275.03
+2026-06-01,2026,9,D001,Fleet Services,Operations,5110,Overtime,Labor,33327.00,35440.17,2113.17
+2026-06-01,2026,9,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,59409.00,51103.71,-8305.29
+2026-06-01,2026,9,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,71001.00,68298.78,-2702.22
+2026-06-01,2026,9,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,78246.00,75781.05,-2464.95
+2026-06-01,2026,9,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,89838.00,85375.57,-4462.43
+2026-06-01,2026,9,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,26082.00,28529.90,2447.90
+2026-06-01,2026,9,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,11592.00,10625.02,-966.98
+2026-06-01,2026,9,D002,Facilities,Operations,5100,Base Salaries,Labor,192820.50,210977.22,18156.72
+2026-06-01,2026,9,D002,Facilities,Operations,5110,Overtime,Labor,27375.75,30731.45,3355.70
+2026-06-01,2026,9,D002,Facilities,Operations,5120,Employee Benefits,Labor,48800.25,48682.81,-117.44
+2026-06-01,2026,9,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,58322.25,51148.38,-7173.87
+2026-06-01,2026,9,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,64273.50,56006.83,-8266.67
+2026-06-01,2026,9,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,73795.50,83312.48,9516.98
+2026-06-01,2026,9,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,21424.50,21614.43,189.93
+2026-06-01,2026,9,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,9522.00,8852.16,-669.84
+2026-06-01,2026,9,D003,Information Technology,Technology,5100,Base Salaries,Labor,167670.00,180171.37,12501.37
+2026-06-01,2026,9,D003,Information Technology,Technology,5110,Overtime,Labor,23805.00,25483.52,1678.52
+2026-06-01,2026,9,D003,Information Technology,Technology,5120,Employee Benefits,Labor,42435.00,48357.29,5922.29
+2026-06-01,2026,9,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,50715.00,48893.39,-1821.61
+2026-06-01,2026,9,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,55890.00,60048.12,4158.12
+2026-06-01,2026,9,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,64170.00,55809.01,-8360.99
+2026-06-01,2026,9,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,18630.00,17596.33,-1033.67
+2026-06-01,2026,9,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,8280.00,8909.50,629.50
+2026-06-01,2026,9,D004,Customer Experience,Service,5100,Base Salaries,Labor,134136.00,136825.60,2689.60
+2026-06-01,2026,9,D004,Customer Experience,Service,5110,Overtime,Labor,19044.00,20257.29,1213.29
+2026-06-01,2026,9,D004,Customer Experience,Service,5120,Employee Benefits,Labor,33948.00,31630.99,-2317.01
+2026-06-01,2026,9,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,40572.00,37362.04,-3209.96
+2026-06-01,2026,9,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,44712.00,44493.33,-218.67
+2026-06-01,2026,9,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,51336.00,52432.51,1096.51
+2026-06-01,2026,9,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,14904.00,14212.89,-691.11
+2026-06-01,2026,9,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,6624.00,7083.37,459.37
+2026-06-01,2026,9,D005,Administration,Corporate,5100,Base Salaries,Labor,108985.50,94984.25,-14001.25
+2026-06-01,2026,9,D005,Administration,Corporate,5110,Overtime,Labor,15473.25,16001.59,528.34
+2026-06-01,2026,9,D005,Administration,Corporate,5120,Employee Benefits,Labor,27582.75,25436.37,-2146.38
+2026-06-01,2026,9,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,32964.75,32741.89,-222.86
+2026-06-01,2026,9,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,36328.50,35662.14,-666.36
+2026-06-01,2026,9,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,41710.50,40487.93,-1222.57
+2026-06-01,2026,9,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,12109.50,10657.09,-1452.41
+2026-06-01,2026,9,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5382.00,5266.78,-115.22
+2026-06-01,2026,9,D006,Procurement,Corporate,5100,Base Salaries,Labor,150903.00,130799.39,-20103.61
+2026-06-01,2026,9,D006,Procurement,Corporate,5110,Overtime,Labor,21424.50,24505.75,3081.25
+2026-06-01,2026,9,D006,Procurement,Corporate,5120,Employee Benefits,Labor,38191.50,41593.91,3402.41
+2026-06-01,2026,9,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,45643.50,48937.38,3293.88
+2026-06-01,2026,9,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,50301.00,46682.02,-3618.98
+2026-06-01,2026,9,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,57753.00,54601.60,-3151.40
+2026-06-01,2026,9,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,16767.00,15414.32,-1352.68
+2026-06-01,2026,9,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,7452.00,7859.03,407.03
+2026-07-01,2026,10,D001,Fleet Services,Operations,5100,Base Salaries,Labor,255864.42,238344.81,-17519.61
+2026-07-01,2026,10,D001,Fleet Services,Operations,5110,Overtime,Labor,36326.43,44137.61,7811.18
+2026-07-01,2026,10,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,64755.81,56897.52,-7858.29
+2026-07-01,2026,10,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,77391.09,72894.57,-4496.52
+2026-07-01,2026,10,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,85288.14,80881.10,-4407.04
+2026-07-01,2026,10,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,97923.42,99587.38,1663.96
+2026-07-01,2026,10,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,28429.38,28349.24,-80.14
+2026-07-01,2026,10,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,12635.28,11935.93,-699.35
+2026-07-01,2026,10,D002,Facilities,Operations,5100,Base Salaries,Labor,210174.34,239031.54,28857.20
+2026-07-01,2026,10,D002,Facilities,Operations,5110,Overtime,Labor,29839.57,31583.19,1743.62
+2026-07-01,2026,10,D002,Facilities,Operations,5120,Employee Benefits,Labor,53192.27,49132.63,-4059.64
+2026-07-01,2026,10,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,63571.25,71946.79,8375.54
+2026-07-01,2026,10,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,70058.11,71647.63,1589.52
+2026-07-01,2026,10,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,80437.09,80973.25,536.16
+2026-07-01,2026,10,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,23352.70,21032.44,-2320.26
+2026-07-01,2026,10,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,10378.98,9269.97,-1109.01
+2026-07-01,2026,10,D003,Information Technology,Technology,5100,Base Salaries,Labor,182760.30,196343.38,13583.08
+2026-07-01,2026,10,D003,Information Technology,Technology,5110,Overtime,Labor,25947.45,32436.27,6488.82
+2026-07-01,2026,10,D003,Information Technology,Technology,5120,Employee Benefits,Labor,46254.15,42171.25,-4082.90
+2026-07-01,2026,10,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,55279.35,48770.38,-6508.97
+2026-07-01,2026,10,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,60920.10,64536.64,3616.54
+2026-07-01,2026,10,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,69945.30,63360.66,-6584.64
+2026-07-01,2026,10,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,20306.70,22972.32,2665.62
+2026-07-01,2026,10,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,9025.20,9676.62,651.42
+2026-07-01,2026,10,D004,Customer Experience,Service,5100,Base Salaries,Labor,146208.24,166089.01,19880.77
+2026-07-01,2026,10,D004,Customer Experience,Service,5110,Overtime,Labor,20757.96,23658.17,2900.21
+2026-07-01,2026,10,D004,Customer Experience,Service,5120,Employee Benefits,Labor,37003.32,35906.62,-1096.70
+2026-07-01,2026,10,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,44223.48,47776.29,3552.81
+2026-07-01,2026,10,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,48736.08,55502.31,6766.23
+2026-07-01,2026,10,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,55956.24,58003.21,2046.97
+2026-07-01,2026,10,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,16245.36,15781.57,-463.79
+2026-07-01,2026,10,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,7220.16,7448.88,228.72
+2026-07-01,2026,10,D005,Administration,Corporate,5100,Base Salaries,Labor,118794.20,106894.24,-11899.96
+2026-07-01,2026,10,D005,Administration,Corporate,5110,Overtime,Labor,16865.84,21632.06,4766.22
+2026-07-01,2026,10,D005,Administration,Corporate,5120,Employee Benefits,Labor,30065.20,29675.27,-389.93
+2026-07-01,2026,10,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,35931.58,40027.98,4096.40
+2026-07-01,2026,10,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,39598.06,35065.41,-4532.65
+2026-07-01,2026,10,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,45464.44,48352.55,2888.11
+2026-07-01,2026,10,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,13199.36,14722.97,1523.61
+2026-07-01,2026,10,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5866.38,6214.69,348.31
+2026-07-01,2026,10,D006,Procurement,Corporate,5100,Base Salaries,Labor,164484.27,162009.16,-2475.11
+2026-07-01,2026,10,D006,Procurement,Corporate,5110,Overtime,Labor,23352.70,27890.52,4537.82
+2026-07-01,2026,10,D006,Procurement,Corporate,5120,Employee Benefits,Labor,41628.74,42135.79,507.05
+2026-07-01,2026,10,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,49751.42,50989.31,1237.89
+2026-07-01,2026,10,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,54828.09,56364.84,1536.75
+2026-07-01,2026,10,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,62950.77,65218.13,2267.36
+2026-07-01,2026,10,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,18276.03,15999.16,-2276.87
+2026-07-01,2026,10,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,8122.68,8300.29,177.61
+2026-08-01,2026,11,D001,Fleet Services,Operations,5100,Base Salaries,Labor,255864.42,231601.79,-24262.63
+2026-08-01,2026,11,D001,Fleet Services,Operations,5110,Overtime,Labor,36326.43,42873.87,6547.44
+2026-08-01,2026,11,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,64755.81,61116.69,-3639.12
+2026-08-01,2026,11,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,77391.09,78484.77,1093.68
+2026-08-01,2026,11,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,85288.14,79901.10,-5387.04
+2026-08-01,2026,11,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,97923.42,87211.05,-10712.37
+2026-08-01,2026,11,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,28429.38,26516.22,-1913.16
+2026-08-01,2026,11,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,12635.28,13446.11,810.83
+2026-08-01,2026,11,D002,Facilities,Operations,5100,Base Salaries,Labor,210174.34,222449.44,12275.10
+2026-08-01,2026,11,D002,Facilities,Operations,5110,Overtime,Labor,29839.57,34320.52,4480.95
+2026-08-01,2026,11,D002,Facilities,Operations,5120,Employee Benefits,Labor,53192.27,57653.93,4461.66
+2026-08-01,2026,11,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,63571.25,69018.81,5447.56
+2026-08-01,2026,11,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,70058.11,73785.54,3727.43
+2026-08-01,2026,11,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,80437.09,81563.07,1125.98
+2026-08-01,2026,11,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,23352.70,22315.40,-1037.30
+2026-08-01,2026,11,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,10378.98,10880.21,501.23
+2026-08-01,2026,11,D003,Information Technology,Technology,5100,Base Salaries,Labor,182760.30,180745.01,-2015.29
+2026-08-01,2026,11,D003,Information Technology,Technology,5110,Overtime,Labor,25947.45,30252.15,4304.70
+2026-08-01,2026,11,D003,Information Technology,Technology,5120,Employee Benefits,Labor,46254.15,48656.50,2402.35
+2026-08-01,2026,11,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,55279.35,52789.72,-2489.63
+2026-08-01,2026,11,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,60920.10,62722.91,1802.81
+2026-08-01,2026,11,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,69945.30,75474.92,5529.62
+2026-08-01,2026,11,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,20306.70,19007.46,-1299.24
+2026-08-01,2026,11,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,9025.20,8700.68,-324.52
+2026-08-01,2026,11,D004,Customer Experience,Service,5100,Base Salaries,Labor,146208.24,141058.84,-5149.40
+2026-08-01,2026,11,D004,Customer Experience,Service,5110,Overtime,Labor,20757.96,21711.36,953.40
+2026-08-01,2026,11,D004,Customer Experience,Service,5120,Employee Benefits,Labor,37003.32,36832.07,-171.25
+2026-08-01,2026,11,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,44223.48,48212.38,3988.90
+2026-08-01,2026,11,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,48736.08,49041.00,304.92
+2026-08-01,2026,11,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,55956.24,58886.93,2930.69
+2026-08-01,2026,11,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,16245.36,17456.13,1210.77
+2026-08-01,2026,11,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,7220.16,6633.57,-586.59
+2026-08-01,2026,11,D005,Administration,Corporate,5100,Base Salaries,Labor,118794.20,119867.77,1073.57
+2026-08-01,2026,11,D005,Administration,Corporate,5110,Overtime,Labor,16865.84,18495.39,1629.55
+2026-08-01,2026,11,D005,Administration,Corporate,5120,Employee Benefits,Labor,30065.20,26717.89,-3347.31
+2026-08-01,2026,11,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,35931.58,38990.10,3058.52
+2026-08-01,2026,11,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,39598.06,40047.96,449.90
+2026-08-01,2026,11,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,45464.44,50598.37,5133.93
+2026-08-01,2026,11,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,13199.36,11669.73,-1529.63
+2026-08-01,2026,11,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5866.38,5590.97,-275.41
+2026-08-01,2026,11,D006,Procurement,Corporate,5100,Base Salaries,Labor,164484.27,176662.67,12178.40
+2026-08-01,2026,11,D006,Procurement,Corporate,5110,Overtime,Labor,23352.70,28033.45,4680.75
+2026-08-01,2026,11,D006,Procurement,Corporate,5120,Employee Benefits,Labor,41628.74,45837.70,4208.96
+2026-08-01,2026,11,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,49751.42,47387.82,-2363.60
+2026-08-01,2026,11,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,54828.09,48885.18,-5942.91
+2026-08-01,2026,11,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,62950.77,64791.66,1840.89
+2026-08-01,2026,11,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,18276.03,19901.04,1625.01
+2026-08-01,2026,11,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,8122.68,7146.81,-975.87
+2026-09-01,2026,12,D001,Fleet Services,Operations,5100,Base Salaries,Labor,255864.42,237135.42,-18729.00
+2026-09-01,2026,12,D001,Fleet Services,Operations,5110,Overtime,Labor,36326.43,35144.68,-1181.75
+2026-09-01,2026,12,D001,Fleet Services,Operations,5120,Employee Benefits,Labor,64755.81,69910.88,5155.07
+2026-09-01,2026,12,D001,Fleet Services,Operations,6100,Parts and Materials,Non-Labor,77391.09,71673.68,-5717.41
+2026-09-01,2026,12,D001,Fleet Services,Operations,6110,Fuel and Utilities,Non-Labor,85288.14,84968.86,-319.28
+2026-09-01,2026,12,D001,Fleet Services,Operations,6120,Contracted Services,Non-Labor,97923.42,110423.09,12499.67
+2026-09-01,2026,12,D001,Fleet Services,Operations,6130,Software and Licenses,Non-Labor,28429.38,30929.42,2500.04
+2026-09-01,2026,12,D001,Fleet Services,Operations,6140,Training and Travel,Non-Labor,12635.28,11186.64,-1448.64
+2026-09-01,2026,12,D002,Facilities,Operations,5100,Base Salaries,Labor,210174.34,219642.02,9467.68
+2026-09-01,2026,12,D002,Facilities,Operations,5110,Overtime,Labor,29839.57,29398.09,-441.48
+2026-09-01,2026,12,D002,Facilities,Operations,5120,Employee Benefits,Labor,53192.27,50209.56,-2982.71
+2026-09-01,2026,12,D002,Facilities,Operations,6100,Parts and Materials,Non-Labor,63571.25,72229.53,8658.28
+2026-09-01,2026,12,D002,Facilities,Operations,6110,Fuel and Utilities,Non-Labor,70058.11,67492.75,-2565.36
+2026-09-01,2026,12,D002,Facilities,Operations,6120,Contracted Services,Non-Labor,80437.09,88573.25,8136.16
+2026-09-01,2026,12,D002,Facilities,Operations,6130,Software and Licenses,Non-Labor,23352.70,23942.26,589.56
+2026-09-01,2026,12,D002,Facilities,Operations,6140,Training and Travel,Non-Labor,10378.98,10851.19,472.21
+2026-09-01,2026,12,D003,Information Technology,Technology,5100,Base Salaries,Labor,182760.30,204482.27,21721.97
+2026-09-01,2026,12,D003,Information Technology,Technology,5110,Overtime,Labor,25947.45,23290.37,-2657.08
+2026-09-01,2026,12,D003,Information Technology,Technology,5120,Employee Benefits,Labor,46254.15,51238.91,4984.76
+2026-09-01,2026,12,D003,Information Technology,Technology,6100,Parts and Materials,Non-Labor,55279.35,60853.87,5574.52
+2026-09-01,2026,12,D003,Information Technology,Technology,6110,Fuel and Utilities,Non-Labor,60920.10,61807.95,887.85
+2026-09-01,2026,12,D003,Information Technology,Technology,6120,Contracted Services,Non-Labor,69945.30,71993.33,2048.03
+2026-09-01,2026,12,D003,Information Technology,Technology,6130,Software and Licenses,Non-Labor,20306.70,19799.73,-506.97
+2026-09-01,2026,12,D003,Information Technology,Technology,6140,Training and Travel,Non-Labor,9025.20,8693.09,-332.11
+2026-09-01,2026,12,D004,Customer Experience,Service,5100,Base Salaries,Labor,146208.24,166005.15,19796.91
+2026-09-01,2026,12,D004,Customer Experience,Service,5110,Overtime,Labor,20757.96,21397.72,639.76
+2026-09-01,2026,12,D004,Customer Experience,Service,5120,Employee Benefits,Labor,37003.32,38699.79,1696.47
+2026-09-01,2026,12,D004,Customer Experience,Service,6100,Parts and Materials,Non-Labor,44223.48,45623.20,1399.72
+2026-09-01,2026,12,D004,Customer Experience,Service,6110,Fuel and Utilities,Non-Labor,48736.08,54277.15,5541.07
+2026-09-01,2026,12,D004,Customer Experience,Service,6120,Contracted Services,Non-Labor,55956.24,48675.85,-7280.39
+2026-09-01,2026,12,D004,Customer Experience,Service,6130,Software and Licenses,Non-Labor,16245.36,14740.10,-1505.26
+2026-09-01,2026,12,D004,Customer Experience,Service,6140,Training and Travel,Non-Labor,7220.16,7700.06,479.90
+2026-09-01,2026,12,D005,Administration,Corporate,5100,Base Salaries,Labor,118794.20,106381.39,-12412.81
+2026-09-01,2026,12,D005,Administration,Corporate,5110,Overtime,Labor,16865.84,17412.69,546.85
+2026-09-01,2026,12,D005,Administration,Corporate,5120,Employee Benefits,Labor,30065.20,27326.02,-2739.18
+2026-09-01,2026,12,D005,Administration,Corporate,6100,Parts and Materials,Non-Labor,35931.58,37951.54,2019.96
+2026-09-01,2026,12,D005,Administration,Corporate,6110,Fuel and Utilities,Non-Labor,39598.06,37855.64,-1742.42
+2026-09-01,2026,12,D005,Administration,Corporate,6120,Contracted Services,Non-Labor,45464.44,49560.00,4095.56
+2026-09-01,2026,12,D005,Administration,Corporate,6130,Software and Licenses,Non-Labor,13199.36,14034.61,835.25
+2026-09-01,2026,12,D005,Administration,Corporate,6140,Training and Travel,Non-Labor,5866.38,6427.87,561.49
+2026-09-01,2026,12,D006,Procurement,Corporate,5100,Base Salaries,Labor,164484.27,146798.66,-17685.61
+2026-09-01,2026,12,D006,Procurement,Corporate,5110,Overtime,Labor,23352.70,22053.89,-1298.81
+2026-09-01,2026,12,D006,Procurement,Corporate,5120,Employee Benefits,Labor,41628.74,45944.71,4315.97
+2026-09-01,2026,12,D006,Procurement,Corporate,6100,Parts and Materials,Non-Labor,49751.42,49038.47,-712.95
+2026-09-01,2026,12,D006,Procurement,Corporate,6110,Fuel and Utilities,Non-Labor,54828.09,52584.08,-2244.01
+2026-09-01,2026,12,D006,Procurement,Corporate,6120,Contracted Services,Non-Labor,62950.77,68279.46,5328.69
+2026-09-01,2026,12,D006,Procurement,Corporate,6130,Software and Licenses,Non-Labor,18276.03,19173.05,897.02
+2026-09-01,2026,12,D006,Procurement,Corporate,6140,Training and Travel,Non-Labor,8122.68,8737.89,615.21

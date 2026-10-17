@@ -1,0 +1,9 @@
+gl_account_id,gl_account_name,expense_class
+5100,Base Salaries,Labor
+5110,Overtime,Labor
+5120,Employee Benefits,Labor
+6100,Parts and Materials,Non-Labor
+6110,Fuel and Utilities,Non-Labor
+6120,Contracted Services,Non-Labor
+6130,Software and Licenses,Non-Labor
+6140,Training and Travel,Non-Labor

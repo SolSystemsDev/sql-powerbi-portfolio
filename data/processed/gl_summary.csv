@@ -1,0 +1,9 @@
+gl_account_id,gl_account_name,expense_class,budget_usd,actual_usd,variance_usd
+5100,Base Salaries,Labor,12085565.31,12184655.46,99090.15
+5110,Overtime,Labor,1715851.85,1788719.24,72867.39
+6110,Fuel and Utilities,Non-Labor,4028521.74,4099706.68,71184.94
+6120,Contracted Services,Non-Labor,4625339.78,4650951.23,25611.45
+6100,Parts and Materials,Non-Labor,3655510.51,3679855.62,24345.11
+6140,Training and Travel,Non-Labor,596818.04,591608.21,-5209.83
+6130,Software and Licenses,Non-Labor,1342840.59,1328500.99,-14339.60
+5120,Employee Benefits,Labor,3058692.47,3028854.04,-29838.43

@@ -1,0 +1,4 @@
+month_start,department_name,gl_account_name,budget_usd,actual_usd,variance_usd
+2026-01-01,Information Technology,Fuel and Utilities,55890.00,68211.94,12321.94
+2026-07-01,Fleet Services,Overtime,36326.43,44137.61,7811.18
+2026-07-01,Information Technology,Overtime,25947.45,32436.27,6488.82
